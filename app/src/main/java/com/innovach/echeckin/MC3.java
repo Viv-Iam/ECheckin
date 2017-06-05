@@ -8,6 +8,6 @@ public class MC3 extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_mc3);
+        setContentView(R.layout.activity_mc);
     }
 }
