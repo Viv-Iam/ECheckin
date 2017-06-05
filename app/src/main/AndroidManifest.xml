@@ -20,7 +20,8 @@
         </activity>
         <activity android:name=".MC2" />
         <activity android:name=".MC3" />
-        <activity android:name=".MPFT4"></activity>
+        <activity android:name=".MPFT4" />
+        <activity android:name=".MPPT"></activity>
     </application>
 
 </manifest>
