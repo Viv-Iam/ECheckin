@@ -5,7 +5,7 @@
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
-        android:label="@string/app_name"
+        android:label="Attendance List"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
@@ -18,10 +18,15 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".MC2" />
+        <activity android:name=".MC2">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.innovach.echeckin.MainActivity"></meta-data>
+        </activity>
         <activity android:name=".MC3" />
         <activity android:name=".MPFT4" />
-        <activity android:name=".MPPT"></activity>
+        <activity android:name=".MPPT" />
+        <activity android:name=".qr.ReaderActivity"></activity>
     </application>
 
 </manifest>
