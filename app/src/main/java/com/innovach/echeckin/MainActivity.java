@@ -6,6 +6,8 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 
+import com.innovach.echeckin.qr.ReaderActivity;
+
 import butterknife.Bind;
 import butterknife.ButterKnife;
 
@@ -14,6 +16,8 @@ public class MainActivity extends AppCompatActivity {
     @Bind(R.id.mc3button) Button mMc3Button;
     @Bind(R.id.mpft4button) Button mMpft4Button;
     @Bind(R.id.mpptbutton) Button mMpptButton;
+    @Bind(R.id.qrscanbutton) Button mQrScanButton;
+    @Bind(R.id.qrgenbutton) Button mQrGenButton;
 
 
     @Override
@@ -52,6 +56,22 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent(MainActivity.this, MPPT.class);
+                startActivity(intent);
+            }
+        });
+
+        mQrScanButton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(MainActivity.this, ReaderActivity.class);
+                startActivity(intent);
+            }
+        });
+
+        mQrGenButton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(MainActivity.this, ReaderActivity.class);
                 startActivity(intent);
             }
         });

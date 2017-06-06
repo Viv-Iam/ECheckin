@@ -21,12 +21,13 @@
         <activity android:name=".MC2">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
-                android:value="com.innovach.echeckin.MainActivity"></meta-data>
+                android:value="com.innovach.echeckin.MainActivity" />
         </activity>
         <activity android:name=".MC3" />
         <activity android:name=".MPFT4" />
         <activity android:name=".MPPT" />
-        <activity android:name=".qr.ReaderActivity"></activity>
+        <activity android:name=".qr.ReaderActivity" />
+        <activity android:name=".qr.GeneratorActivity"></activity>
     </application>
 
 </manifest>

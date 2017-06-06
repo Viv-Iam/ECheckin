@@ -9,7 +9,7 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="SELECT COHORT"
+        android:text="SELECT CATEGORY"
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="35dp"
@@ -64,6 +64,30 @@
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="250dp"
+        android:textSize="30sp"/>
+
+    <Button
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:text="ADMIN"
+        android:id="@+id/qrscanbutton"
+        android:background="@color/colorAccent"
+        android:textColor="@color/colorBack"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="305dp"
+        android:textSize="30sp"/>
+
+    <Button
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:text="VISITOR"
+        android:id="@+id/qrgenbutton"
+        android:background="@color/colorAccent"
+        android:textColor="@color/colorBack"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="360dp"
         android:textSize="30sp"/>
 
 </RelativeLayout>
