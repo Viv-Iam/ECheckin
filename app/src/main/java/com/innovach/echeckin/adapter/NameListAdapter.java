@@ -10,6 +10,7 @@ import android.widget.Button;
 import android.widget.TextView;
 
 import com.innovach.echeckin.R;
+import com.innovach.echeckin.moringa.Name;
 
 import java.util.List;
 import java.util.jar.Attributes;
