@@ -39,10 +39,15 @@ public class NameListAdapter extends RecyclerView.Adapter<NameListAdapter.NameVi
     public void onBindViewHolder(NameListAdapter.NameViewHolder holder, int position) {
 
         Name name = mNames.get(position);
-        TextView textView = holder.nameTextView;
+        TextView textView = holder.mPersonNameTextView;
         textView.setText(name.getName());
-        Button button = holder.checkinButton;
+        Button button = holder.mCheckinButton;
         button.setText("Check-in");
+    }
+
+    @Override
+    public int getItemCount() {
+        return mNames.size();
     }
 
 
