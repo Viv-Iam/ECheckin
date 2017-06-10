@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "397354747867",
+    "firebase_url": "https://mobilecheck-in-38380.firebaseio.com",
+    "project_id": "mobilecheck-in-38380",
+    "storage_bucket": "mobilecheck-in-38380.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:397354747867:android:240faf23506f1726",
+        "android_client_info": {
+          "package_name": "com.innovach.echeckin"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "397354747867-e9cb1780lq31dck9c9aan679en65jfgj.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.innovach.echeckin",
+            "certificate_hash": "b77c2577790e0a6bbb973f0ce30654a7fec03ccf"
+          }
+        },
+        {
+          "client_id": "397354747867-a23ajuh8fi9ad0doecqgqh7lf1fmefld.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBdA2vBfv40JG144r_I5eXanv3VhUiM5Vo"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "397354747867-a23ajuh8fi9ad0doecqgqh7lf1fmefld.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
