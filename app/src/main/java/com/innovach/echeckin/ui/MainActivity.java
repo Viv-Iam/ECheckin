@@ -8,9 +8,6 @@ import android.widget.Button;
 
 import com.innovach.echeckin.R;
 import com.innovach.echeckin.moringa.MoringaMainActivity;
-import com.innovach.echeckin.moringa.moringagroups.MC2Activity;
-import com.innovach.echeckin.qr.GeneratorActivity;
-import com.innovach.echeckin.qr.ReaderActivity;
 
 import butterknife.Bind;
 import butterknife.ButterKnife;
