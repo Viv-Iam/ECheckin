@@ -27,7 +27,6 @@ public class GeneratorActivity extends AppCompatActivity {
     @Bind(image) ImageView mImage;
     String text2Qr;
 
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -38,10 +37,10 @@ public class GeneratorActivity extends AppCompatActivity {
 
             @Override
             public void onClick(View view) {
-                text2Qr = mText.getText().toString().trim();
+                text2Qr = mText.getText().toString();
                 MultiFormatWriter multiFormatWriter = new MultiFormatWriter();
                 try{
-                    BitMatrix bitMatrix = multiFormatWriter.encode("text2Qr", BarcodeFormat.QR_CODE,200,200);
+                    BitMatrix bitMatrix = multiFormatWriter.encode(text2Qr, BarcodeFormat.QR_CODE,200,200);
                     BarcodeEncoder barcodeEncoder = new BarcodeEncoder();
                     Bitmap bitmap = barcodeEncoder.createBitmap(bitMatrix);
                     mImage.setImageBitmap(bitmap);

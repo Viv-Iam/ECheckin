@@ -1,4 +1,4 @@
-package com.innovach.echeckin;
+package com.innovach.echeckin.ui;
 
 import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
@@ -6,6 +6,7 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 
+import com.innovach.echeckin.R;
 import com.innovach.echeckin.qr.GeneratorActivity;
 import com.innovach.echeckin.qr.ReaderActivity;
 
