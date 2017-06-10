@@ -7,6 +7,8 @@ import android.view.View;
 import android.widget.Button;
 
 import com.innovach.echeckin.R;
+import com.innovach.echeckin.moringa.MoringaMainActivity;
+import com.innovach.echeckin.moringa.moringagroups.MC2Activity;
 import com.innovach.echeckin.qr.GeneratorActivity;
 import com.innovach.echeckin.qr.ReaderActivity;
 
@@ -14,68 +16,23 @@ import butterknife.Bind;
 import butterknife.ButterKnife;
 
 public class MainActivity extends AppCompatActivity {
-    @Bind(R.id.mc2button) Button mMc2Button;
-    @Bind(R.id.mc3button) Button mMc3Button;
-    @Bind(R.id.mpft4button) Button mMpft4Button;
-    @Bind(R.id.mpptbutton) Button mMpptButton;
-    @Bind(R.id.qrscanbutton) Button mQrScanButton;
-    @Bind(R.id.qrgenbutton) Button mQrGenButton;
+    @Bind(R.id.moringabutton) Button mMoringaButton;
 
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-
-
         ButterKnife.bind(this);
 
-        mMc2Button.setOnClickListener(new View.OnClickListener() {
+        mMoringaButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(MainActivity.this, MC2.class);
+                Intent intent = new Intent(MainActivity.this, MoringaMainActivity.class);
                 startActivity(intent);
             }
         });
 
-        mMc3Button.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Intent intent = new Intent(MainActivity.this, MC3.class);
-                startActivity(intent);
-            }
-        });
 
-        mMpft4Button.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Intent intent = new Intent(MainActivity.this, MPFT4.class);
-                startActivity(intent);
-            }
-        });
-
-        mMpptButton.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Intent intent = new Intent(MainActivity.this, MPPT.class);
-                startActivity(intent);
-            }
-        });
-
-        mQrScanButton.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Intent intent = new Intent(MainActivity.this, ReaderActivity.class);
-                startActivity(intent);
-            }
-        });
-
-        mQrGenButton.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Intent intent = new Intent(MainActivity.this, GeneratorActivity.class);
-                startActivity(intent);
-            }
-        });
     }
 }
