@@ -20,7 +20,8 @@
         </activity>
         <activity android:name=".qr.ReaderActivity" />
         <activity android:name=".qr.GeneratorActivity" />
-        <activity android:name=".groups.CohortActivity"></activity>
+        <activity android:name=".groups.CohortActivity" />
+        <activity android:name=".moringa.MoringaMainActivity"></activity>
     </application>
 
 </manifest>
