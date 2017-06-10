@@ -17,6 +17,8 @@ import java.util.jar.Attributes;
 import butterknife.Bind;
 import butterknife.ButterKnife;
 
+import static android.R.attr.name;
+
 public class NameListAdapter extends RecyclerView.Adapter<NameListAdapter.NameViewHolder> {
     private List<Name> mNames;
     private Context mContext;
@@ -33,7 +35,15 @@ public class NameListAdapter extends RecyclerView.Adapter<NameListAdapter.NameVi
         return viewHolder;
     }
 
+    @Override
+    public void onBindViewHolder(NameListAdapter.NameViewHolder holder, int position) {
 
+        Name name = mNames.get(position);
+        TextView textView = holder.nameTextView;
+        textView.setText(name.getName());
+        Button button = holder.checkinButton;
+        button.setText("Check-in");
+    }
 
 
     public class NameViewHolder extends RecyclerView.ViewHolder {
