@@ -8,7 +8,7 @@
     <EditText
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:id="@+id/nameEditText"
+        android:id="@+id/namesEditText"
         android:hint="Enter Name"
         android:layout_centerHorizontal="true"/>
 
@@ -16,9 +16,18 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Add to MC2"
-        android:id="@+id/mc2NameButton"
+        android:id="@+id/mc2Button"
         android:background="@color/colorAccent"
         android:layout_marginTop="60dp"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Add to MC3"
+        android:id="@+id/mc3Button"
+        android:background="@color/colorAccent"
+        android:layout_marginTop="240dp"
         android:layout_centerHorizontal="true" />
 
 </RelativeLayout>

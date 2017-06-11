@@ -2,5 +2,6 @@ package com.innovach.echeckin;
 
 
 public class Constants {
-    public static final String FIREBASE_CHILD_ADDED_NAME = "addedName";
+    public static final String FIREBASE_CHILD_MC2_NAMES = "MC2Names";
+    public static final String FIREBASE_CHILD_MC3_NAMES = "MC3Names";
 }
