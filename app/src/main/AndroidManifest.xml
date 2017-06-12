@@ -47,7 +47,8 @@
         <activity android:name="com.innovach.MC2Activity" />
         <activity android:name="com.innovach.MC3Activity" />
         <activity android:name="com.innovach.MPFTActivity" />
-        <activity android:name="com.innovach.MPPTActivity"></activity>
+        <activity android:name="com.innovach.MPPTActivity" />
+        <activity android:name=".ui.CreateAccountActivity"></activity>
     </application>
 
 </manifest>
