@@ -4,6 +4,6 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.innovach.echeckin.moringa.moringagroups.MC3Activity">
+    tools:context="com.innovach.MC3Activity">
 
 </android.support.constraint.ConstraintLayout>

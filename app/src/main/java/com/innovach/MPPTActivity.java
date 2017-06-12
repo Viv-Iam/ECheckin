@@ -1,15 +1,15 @@
-package com.innovach.echeckin.moringa.moringagroups;
+package com.innovach;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 
 import com.innovach.echeckin.R;
 
-public class MPFTActivity extends AppCompatActivity {
+public class MPPTActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_mpft);
+        setContentView(R.layout.activity_mppt);
     }
 }

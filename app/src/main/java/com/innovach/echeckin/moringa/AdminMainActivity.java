@@ -11,8 +11,7 @@ import com.google.firebase.database.DatabaseReference;
 import com.google.firebase.database.FirebaseDatabase;
 import com.innovach.echeckin.Constants;
 import com.innovach.echeckin.R;
-import com.innovach.echeckin.moringa.moringagroups.MC2Activity;
-import com.innovach.echeckin.moringa.moringagroups.MC3Activity;
+import com.innovach.echeckin.moringa.moringagroups.oMC2Activity;
 
 import butterknife.Bind;
 import butterknife.ButterKnife;
@@ -52,7 +51,7 @@ public class AdminMainActivity extends AppCompatActivity implements View.OnClick
                 if(v == mMc2Button) {
                     String name = mNamesEditText.getText().toString();
                     saveMc2ToFirebase(name);
-                    Intent intent = new Intent(AdminMainActivity.this, MC2Activity.class);
+                    Intent intent = new Intent(AdminMainActivity.this, AdminMainActivity.class);
                     intent.putExtra("name", name);
                     startActivity(intent);
                 }
@@ -60,7 +59,7 @@ public class AdminMainActivity extends AppCompatActivity implements View.OnClick
         if(v == mMc3Button) {
             String name1 = mNamesEditText.getText().toString();
             saveMc3ToFirebase(name1);
-            Intent intent = new Intent(AdminMainActivity.this, MC3Activity.class);
+            Intent intent = new Intent(AdminMainActivity.this, oMC2Activity.class);
             intent.putExtra("name", name1);
             startActivity(intent);
         }

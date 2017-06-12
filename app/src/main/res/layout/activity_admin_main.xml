@@ -7,14 +7,14 @@
 
     <EditText
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="50dp"
         android:id="@+id/namesEditText"
         android:hint="Enter Name"
         android:layout_centerHorizontal="true"/>
 
     <Button
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_height="40dp"
         android:text="Add to MC2"
         android:id="@+id/mc2Button"
         android:background="@color/colorAccent"
@@ -23,11 +23,11 @@
 
     <Button
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_height="40dp"
         android:text="Add to MC3"
         android:id="@+id/mc3Button"
         android:background="@color/colorAccent"
-        android:layout_marginTop="240dp"
+        android:layout_marginTop="120dp"
         android:layout_centerHorizontal="true" />
 
 </RelativeLayout>

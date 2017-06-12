@@ -1,9 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.innovach.echeckin">
+
     <uses-permission android:name="android.permission.INTERNET" />
 
     <application
+        android:name=".ECheckin"
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
         android:label="Check-in List"
@@ -21,30 +23,31 @@
         </activity>
         <activity android:name=".qr.ReaderActivity" />
         <activity android:name=".qr.GeneratorActivity" />
-        <activity
-            android:name=".moringa.MoringaMainActivity"
-            android:theme="@style/NoActionBarTheme" />
-        <activity android:name=".moringa.moringagroups.MC2Activity">
+        <activity android:name=".moringa.moringagroups.oMC2Activity">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
-                android:value="com.innovach.echeckin.moringa.MoringaMainActivity"></meta-data>
+                android:value="com.innovach.echeckin.moringa.MoringaMainActivity" />
         </activity>
-        <activity android:name=".moringa.moringagroups.MC3Activity">
+        <!-- <activity android:name=".MC3Activity"> -->
+        <!-- <meta-data -->
+        <!-- android:name="android.support.PARENT_ACTIVITY" -->
+        <!-- android:value="com.innovach.echeckin.moringa.MoringaMainActivity" /> -->
+        <!-- </activity> -->
+        <activity android:name=".moringa.moringagroups.oMPFTActivity">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
-                android:value="com.innovach.echeckin.moringa.MoringaMainActivity"></meta-data>
+                android:value="com.innovach.echeckin.moringa.MoringaMainActivity" />
         </activity>
-        <activity android:name=".moringa.moringagroups.MPFTActivity">
+        <activity android:name=".moringa.moringagroups.oMPPTActivity">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
-                android:value="com.innovach.echeckin.moringa.MoringaMainActivity"></meta-data>
+                android:value="com.innovach.echeckin.moringa.MoringaMainActivity" />
         </activity>
-        <activity android:name=".moringa.moringagroups.MPPTActivity">
-            <meta-data
-                android:name="android.support.PARENT_ACTIVITY"
-                android:value="com.innovach.echeckin.moringa.MoringaMainActivity"></meta-data>
-        </activity>
-        <activity android:name=".moringa.AdminMainActivity"></activity>
+        <activity android:name=".moringa.AdminMainActivity" />
+        <activity android:name="com.innovach.MC2Activity" />
+        <activity android:name="com.innovach.MC3Activity" />
+        <activity android:name="com.innovach.MPFTActivity" />
+        <activity android:name="com.innovach.MPPTActivity"></activity>
     </application>
 
 </manifest>

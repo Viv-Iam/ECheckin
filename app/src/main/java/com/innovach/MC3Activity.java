@@ -1,0 +1,15 @@
+package com.innovach;
+
+import android.support.v7.app.AppCompatActivity;
+import android.os.Bundle;
+
+import com.innovach.echeckin.R;
+
+public class MC3Activity extends AppCompatActivity {
+
+    @Override
+    protected void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+        setContentView(R.layout.activity_mc3);
+    }
+}
