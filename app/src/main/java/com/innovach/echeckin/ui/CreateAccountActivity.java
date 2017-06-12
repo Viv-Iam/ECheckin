@@ -10,6 +10,7 @@ import android.widget.TextView;
 import com.innovach.echeckin.R;
 
 import butterknife.Bind;
+import butterknife.ButterKnife;
 
 public class CreateAccountActivity extends AppCompatActivity implements View.OnClickListener {
 
@@ -24,5 +25,9 @@ public class CreateAccountActivity extends AppCompatActivity implements View.OnC
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_create_account);
+        ButterKnife.bind(this);
+
+        mLoginTextView.setOnClickListener(this);
+        mCreateUserButton.setOnClickListener(this);
     }
 }
