@@ -15,18 +15,13 @@
         <activity
             android:name=".ui.MainActivity"
             android:theme="@style/NoActionBarTheme">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
         </activity>
         <activity android:name=".qr.ReaderActivity" />
         <activity android:name=".qr.GeneratorActivity" />
-        <activity android:name=".moringa.moringagroups.oMC2Activity">
+        <activity android:name="com.innovach.MC2Activity">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
-                android:value="com.innovach.echeckin.moringa.MoringaMainActivity" />
+                android:value="com.innovach.echeckin.MainActivity" />
         </activity>
         <!-- <activity android:name=".MC3Activity"> -->
         <!-- <meta-data -->
@@ -44,12 +39,18 @@
                 android:value="com.innovach.echeckin.moringa.MoringaMainActivity" />
         </activity>
         <activity android:name=".moringa.AdminMainActivity" />
-        <activity android:name="com.innovach.MC2Activity" />
+        <!--<activity android:name="com.innovach.MC2Activity" />-->
         <activity android:name="com.innovach.MC3Activity" />
         <activity android:name="com.innovach.MPFTActivity" />
         <activity android:name="com.innovach.MPPTActivity" />
         <activity android:name=".ui.CreateAccountActivity" />
-        <activity android:name=".ui.LoginActivity"></activity>
+        <activity android:name=".ui.LoginActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
     </application>
 
 </manifest>
