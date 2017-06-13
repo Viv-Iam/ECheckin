@@ -30,7 +30,7 @@ public class CreateAccountActivity extends AppCompatActivity implements View.OnC
     @Bind(R.id.confirmPasswordEditText) EditText mConfirmPasswordEditText;
     @Bind(R.id.loginTextView) TextView mLoginTextView;
     private FirebaseAuth mAuth;
-
+    private FirebaseAuth.AuthStateListener mAuthListener;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
