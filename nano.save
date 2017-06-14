@@ -1,0 +1,3 @@
+Add AuthStateListener in onCreate() method
+*Include onStart() and onStop() methods to attach and remove AuthStateListener
+
