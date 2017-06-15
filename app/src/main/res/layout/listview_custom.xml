@@ -10,7 +10,7 @@
         android:layout_height="wrap_content"
         android:id="@+id/List_txt"
         android:textSize="25dp"
-        android:textStyle="normal|bold"
+        android:textStyle="normal|bold
         android:textColor="#FF4081"
         android:textAlignment="center" />
 
