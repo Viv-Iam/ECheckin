@@ -1,6 +1,7 @@
 package com.innovach.echeckin.ui;
 
 import android.content.Context;
+import android.content.SharedPreferences;
 import android.text.InputType;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -15,6 +16,8 @@ import com.innovach.echeckin.R;
 import java.util.ArrayList;
 import java.util.Calendar;
 import java.util.Date;
+
+import static android.R.attr.visible;
 
 /**
  * Created by vivian on 14/06/17.
