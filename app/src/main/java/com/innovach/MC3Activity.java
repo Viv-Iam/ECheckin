@@ -21,7 +21,7 @@ public class MC3Activity extends AppCompatActivity {
 
         myData.add("Abdulmajid Osman");
         myData.add("Andrew Wachira");
-        myData.add("Anthony Shikanga");
+        myData.add("Anthony Shikanga")
         myData.add("Betty Mutai");
         myData.add("Brian Ontiri");
         myData.add("Bryan Memeti");
