@@ -1,4 +1,4 @@
-package com.innovach.echeckin.ui;
+package com.innovach.echeckin.ui
 
 import android.content.Context;
 import android.view.LayoutInflater;
