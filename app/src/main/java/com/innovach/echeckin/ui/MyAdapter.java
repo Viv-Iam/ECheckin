@@ -49,7 +49,7 @@ public class MyAdapter extends ArrayAdapter<String> {
         list_Txt.setText(item);
         list_But.setVisibility(1);
         txtCTime.setInputType(InputType.TYPE_NULL);
-        list_But.setOnClickListener(new View.OnClickListener()
+        list_But.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 // It will change textview text :

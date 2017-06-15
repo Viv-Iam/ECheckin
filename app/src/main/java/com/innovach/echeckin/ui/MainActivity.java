@@ -18,6 +18,9 @@ import com.innovach.MPFTActivity;
 import com.innovach.MPPTActivity;
 import com.innovach.echeckin.R;
 import com.innovach.echeckin.moringa.AdminMainActivity;
+import com.innovach.echeckin.qr.GeneratorActivity;
+//import com.innovach.echeckin.qr.GeneratorActivity;
+//import com.innovach.echeckin.qr.ReaderActivity;
 
 import butterknife.Bind;
 import butterknife.ButterKnife;
@@ -31,6 +34,7 @@ public class MainActivity extends AppCompatActivity {
     @Bind(R.id.mpft4button) Button mMpft4Button;
     @Bind(R.id.mpptbutton) Button mMpptButton;
     @Bind(R.id.adminbutton) Button mAdminButton;
+    @Bind(R.id.qrgenbutton) Button mQrGenButton;
 
 
     @Override
@@ -92,21 +96,21 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
-        //        mQrScanButton.setOnClickListener(new View.OnClickListener() {
+//                mQrScanButton.setOnClickListener(new View.OnClickListener() {
 //            @Override
 //            public void onClick(View v) {
-//                Intent intent = new Intent(MoringaMainActivity.this, ReaderActivity.class);
+//                Intent intent = new Intent(MainActivity.this, AdminMainActivity.class);
 //                startActivity(intent);
 //            }
 //        });
-//
-//        mQrGenButton.setOnClickListener(new View.OnClickListener() {
-//            @Override
-//            public void onClick(View v) {
-//                Intent intent = new Intent(MoringaMainActivity.this, GeneratorActivity.class);
-//                startActivity(intent);
-//            }
-//        });
+
+        mQrGenButton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(MainActivity.this, GeneratorActivity.class);
+                startActivity(intent);
+            }
+        });
 
 
     }
