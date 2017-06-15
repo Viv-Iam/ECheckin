@@ -6,32 +6,39 @@
 
     <TextView
         android:text="Persons Names"
-        android:layout_width="255dp"
+        android:layout_width="170dp"
         android:layout_height="wrap_content"
         android:id="@+id/List_txt"
-        android:textSize="25dp"
+        android:textSize="20dp"
         android:textStyle="normal|bold"
         android:textColor="#FF4081"
         android:textAlignment="center" />
 
     <Button
         android:id="@+id/List_But1"
-        android:layout_width="120dp"
+        android:layout_width="100dp"
         android:layout_height="wrap_content"
         android:background="#009688"
         android:text="checked-in"
         android:textColor="#FF4081"
-        android:textSize="18dp"
+        android:textSize="10dp"
         android:textStyle="normal|bold" />
 
     <Button
         android:id="@+id/List_But"
-        android:layout_width="120dp"
+        android:layout_width="100dp"
         android:layout_height="wrap_content"
-        android:layout_marginLeft="-120dp"
+        android:layout_marginLeft="-100dp"
         android:background="#FF4081"
         android:text="check-in"
         android:textColor="#009688"
-        android:textSize="18dp"
+        android:textSize="10dp"
         android:textStyle="normal|bold" />
+
+    <EditText
+        android:id="@+id/txtShowCurTime"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+    <requestFocus />
+    </EditText>
 </LinearLayout>

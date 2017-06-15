@@ -1,3 +1,4 @@
 <resources>
-    <string name="app_name">ECheckin</string>
+    <string name="app_name">MobileCheck-in</string>
+    <!--<string name="button">Generate Current time</string>-->
 </resources>
