@@ -2,44 +2,56 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#009688">
+    android:background="#FFFFFF">
 
     <TextView
         android:text="Persons Names"
-        android:layout_width="170dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="8dp"
+        android:layout_width="200dp"
         android:layout_height="wrap_content"
         android:id="@+id/List_txt"
         android:textSize="20dp"
         android:textStyle="normal|bold"
-        android:textColor="#FF4081"
+        android:textColor="#212121"
         android:textAlignment="center" />
 
     <Button
         android:id="@+id/List_But1"
-        android:layout_width="100dp"
-        android:layout_height="wrap_content"
+        android:layout_width="25dp"
+        android:layout_height="20dp"
+        android:layout_marginTop="8dp"
         android:background="#009688"
-        android:text="checked-in"
+        android:drawableLeft="@drawable/ic_check_circle_white_24dp"
         android:textColor="#FF4081"
         android:textSize="15dp"
         android:textStyle="normal|bold" />
 
     <Button
         android:id="@+id/List_But"
-        android:layout_width="100dp"
-        android:layout_height="wrap_content"
-        android:layout_marginLeft="-100dp"
+        android:layout_width="25dp"
+        android:layout_height="20dp"
+        android:layout_marginLeft="-25dp"
+        android:layout_marginTop="8dp"
         android:background="#FF4081"
-        android:text="check-in"
-        android:textColor="#009688"
         android:textSize="15dp"
         android:textStyle="normal|bold" />
 
-    <EditText
+    <!--<EditText-->
+        <!--android:id="@+id/txtShowCurTime"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:textSize="16dp"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--&gt;-->
+    <TextView
         android:id="@+id/txtShowCurTime"
         android:layout_width="match_parent"
-        android:textSize="10dp"
-        android:layout_height="wrap_content" >
+        android:textSize="16dp"
+        android:textColor="#212121"
+        android:layout_marginLeft="14dp"
+        android:layout_marginTop="8dp"
+        android:layout_height="wrap_content"
+        >
     <requestFocus />
-    </EditText>
+    </TextView>
 </LinearLayout>

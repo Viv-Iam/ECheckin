@@ -47,7 +47,7 @@ public class MyAdapter extends ArrayAdapter<String> {
         final TextView list_Txt=(TextView)convertView.findViewById(R.id.List_txt);
         final Button list_But=(Button)convertView.findViewById(R.id.List_But);
         final Button list_But1=(Button)convertView.findViewById(R.id.List_But1);
-        final EditText txtCTime=(EditText)convertView.findViewById(R.id.txtShowCurTime);
+        final TextView txtCTime=(TextView)convertView.findViewById(R.id.txtShowCurTime);
 
         list_Txt.setText(item);
         list_But.setVisibility(1);
