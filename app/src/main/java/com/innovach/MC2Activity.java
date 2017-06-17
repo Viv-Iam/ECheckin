@@ -1,25 +1,14 @@
 package com.innovach;
 
-import android.content.SharedPreferences;
-import android.preference.PreferenceManager;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
-import android.util.Log;
-import android.view.View;
-import android.widget.Button;
-import android.widget.EditText;
 import android.widget.ListView;
-
-import com.innovach.echeckin.Constants;
 import com.innovach.echeckin.R;
 import com.innovach.echeckin.ui.MyAdapter;
-
 import java.util.ArrayList;
 
-import butterknife.Bind;
-import butterknife.ButterKnife;
+public class MC2Activity extends AppCompatActivity   {
 
-public class MC2Activity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
