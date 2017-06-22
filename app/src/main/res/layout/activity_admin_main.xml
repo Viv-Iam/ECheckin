@@ -3,47 +3,89 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.innovach.echeckin.moringa.AdminMainActivity">
+    tools:context="com.innovach.echeckin.moringa.AdminMainActivity"
+    android:background="@color/colorTextIcons">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="CREATE CLASS LIST"
+        android:textColor="@color/colorBack"
+        android:textSize="20dp"
+        android:layout_centerHorizontal="true"/>
 
     <EditText
         android:layout_width="match_parent"
         android:layout_height="50dp"
+        android:layout_marginTop="50dp"
         android:id="@+id/namesEditText"
+        android:textColor="@color/colorBack"
         android:hint="Enter Name"
         android:layout_centerHorizontal="true"/>
 
     <Button
-        android:layout_width="wrap_content"
-        android:layout_height="40dp"
-        android:text="Add to MC2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="ADD to MC2"
         android:id="@+id/mc2Button"
-        android:background="@color/colorAccent"
-        android:layout_marginTop="60dp"
+        android:textColor="@color/colorTextIcons"
+        android:background="@color/colorBack"
+        android:textSize="20dp"
+        android:layout_marginTop="110dp"
         android:layout_centerHorizontal="true" />
 
     <Button
-        android:layout_width="wrap_content"
-        android:layout_height="40dp"
-        android:text="Add to MC3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="ADD to MC3"
+        android:textSize="20dp"
         android:id="@+id/mc3Button"
-        android:background="@color/colorAccent"
-        android:layout_marginTop="120dp"
+        android:textColor="@color/colorTextIcons"
+        android:background="@color/colorBack"
+        android:layout_marginTop="170dp"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="ADD to MPFT4"
+        android:id="@+id/mpft4Button"
+        android:textColor="@color/colorTextIcons"
+        android:background="@color/colorBack"
+        android:textSize="20dp"
+        android:layout_marginTop="230dp"
+        android:layout_centerHorizontal="true" />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="ADD to MPPT"
+        android:id="@+id/mpptButton"
+        android:textColor="@color/colorTextIcons"
+        android:background="@color/colorBack"
+        android:textSize="20dp"
+        android:layout_marginTop="290dp"
         android:layout_centerHorizontal="true" />
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="QRCode Scanner"
-        android:layout_marginTop="180dp"
-        android:textSize="25dp"
+        android:text="QR-CODE SCANNER"
+        android:layout_marginTop="410dp"
+        android:textColor="@color/colorBack"
+        android:textSize="20dp"
         android:layout_centerHorizontal="true" />
 
     <Button
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_centerHorizontal="true"
         android:layout_centerVertical="true"
+        android:layout_alignParentBottom="true"
+        android:background="@color/colorBack"
+        android:layout_marginBottom="10dp"
+        android:textSize="20dp"
         android:text="SCAN"
+        android:textColor="@color/colorTextIcons"
         android:id="@+id/scan_btn" />
 
 </RelativeLayout>

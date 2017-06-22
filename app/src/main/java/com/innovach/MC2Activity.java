@@ -2,13 +2,13 @@ package com.innovach;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.widget.EditText;
 import android.widget.ListView;
 import com.innovach.echeckin.R;
 import com.innovach.echeckin.ui.MyAdapter;
 import java.util.ArrayList;
 
-public class MC2Activity extends AppCompatActivity   {
-
+public class MC2Activity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

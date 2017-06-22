@@ -3,33 +3,43 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@color/colorTextIcons"
     tools:context="com.innovach.echeckin.qr.GeneratorActivity">
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="QR Code Generator"/>
+        android:text="QR CODE GENERATOR"
+        android:textColor="@color/colorBack"
+        android:layout_marginTop="5dp"
+        android:textSize="20dp"
+        android:layout_centerHorizontal="true"/>
 
     <EditText
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="50dp"
         android:hint="Enter Text To Generate"
+        android:textColor="@color/colorBack"
         android:id="@+id/text"/>
 
     <Button
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="100dp"
         android:layout_centerHorizontal="true"
+        android:background="@color/colorBack"
+        android:padding="5dp"
         android:text="GENERATE"
+        android:textSize="20dp"
+        android:textColor="@color/colorTextIcons"
         android:id="@+id/gen_btn"/>
     
     <View
         android:layout_width="match_parent"
         android:layout_height="1dp"
         android:layout_marginTop="155dp"
-        android:background="@android:color/black"
+        android:background="@color/colorBack"
         android:id="@+id/view"/>
 
     <LinearLayout

@@ -23,7 +23,7 @@ import static android.R.attr.visible;
  * Created by vivian on 14/06/17.
  */
 
-public class MyAdapter extends ArrayAdapter<String> {
+public class MyAdapter extends ArrayAdapter<String>  {
     // This is constructor for MyAdapter
 
     public MyAdapter(Context context, ArrayList<String> records)
@@ -44,10 +44,10 @@ public class MyAdapter extends ArrayAdapter<String> {
             convertView = LayoutInflater.from(getContext()).inflate(R.layout.listview_custom, parent, false);
         }
 
-        final TextView list_Txt=(TextView)convertView.findViewById(R.id.List_txt);
+        final TextView list_Txt=(TextView) convertView.findViewById(R.id.List_txt);
         final Button list_But=(Button)convertView.findViewById(R.id.List_But);
         final Button list_But1=(Button)convertView.findViewById(R.id.List_But1);
-        final TextView txtCTime=(TextView)convertView.findViewById(R.id.txtShowCurTime);
+        final TextView txtCTime=(TextView) convertView.findViewById(R.id.txtShowCurTime);
 
         list_Txt.setText(item);
         list_But.setVisibility(1);
