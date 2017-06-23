@@ -23,6 +23,8 @@ import static com.innovach.echeckin.R.id.image;
 
 public class GeneratorActivity extends AppCompatActivity {
     @Bind(R.id.text) EditText mText;
+//    @Bind(R.id.text1) EditText mText1;
+//    @Bind(R.id.text) EditText mText;
     @Bind(R.id.gen_btn) Button mGen_Btn;
     @Bind(image) ImageView mImage;
     String text2Qr;
