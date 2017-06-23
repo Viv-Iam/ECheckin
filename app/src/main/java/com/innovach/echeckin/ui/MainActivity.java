@@ -32,7 +32,7 @@ public class MainActivity extends AppCompatActivity {
     @Bind(R.id.mc2button) Button mMc2Button;
     @Bind(R.id.mc3button) Button mMc3Button;
     @Bind(R.id.mpft4button) Button mMpft4Button;
-    @Bind(R.id.mpptbutton) Button mMpptButton;
+//    @Bind(R.id.mpptbutton) Button mMpptButton;
     @Bind(R.id.adminbutton) Button mAdminButton;
     @Bind(R.id.qrgenbutton) Button mQrGenButton;
 
@@ -88,13 +88,13 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
-        mMpptButton.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Intent intent = new Intent(MainActivity.this, MPPTActivity.class);
-                startActivity(intent);
-            }
-        });
+//        mMpptButton.setOnClickListener(new View.OnClickListener() {
+//            @Override
+//            public void onClick(View v) {
+//                Intent intent = new Intent(MainActivity.this, MPPTActivity.class);
+//                startActivity(intent);
+//            }
+//        });
 
 //                mQrScanButton.setOnClickListener(new View.OnClickListener() {
 //            @Override

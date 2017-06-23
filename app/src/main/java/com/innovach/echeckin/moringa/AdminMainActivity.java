@@ -78,16 +78,14 @@ public class AdminMainActivity extends AppCompatActivity implements View.OnClick
         if(v == mMc3Button) {
             String name1 = mNamesEditText.getText().toString();
             saveMc3ToFirebase(name1);
-            Intent intent = new Intent(AdminMainActivity.this, MC2Activity.class);
+            Intent intent = new Intent(AdminMainActivity.this, AdminMainActivity.class);
             intent.putExtra("name", name1);
             startActivity(intent);
         }
 
             }
             //Adds data under MC2Names node on firebase
-            public void saveMc2ToFirebase(String name) {
-            mMC2NamesReference.push().setValue(name);
-        }
+            public void saveMc2ToFirebase(String name) { mMC2NamesReference.push().setValue(name); }
         //Adds data under MC3Names node on firebase
     public void saveMc3ToFirebase(String name) {
         mMC3NamesReference.push().setValue(name);

@@ -18,15 +18,15 @@
     <EditText
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginTop="50dp"
-        android:hint="Enter Text To Generate"
+        android:layout_marginTop="30dp"
+        android:hint="Enter Full Name"
         android:textColor="@color/colorBack"
         android:id="@+id/text"/>
 
     <Button
-        android:layout_width="match_parent"
+        android:layout_width="350dp"
         android:layout_height="wrap_content"
-        android:layout_marginTop="100dp"
+        android:layout_marginTop="145dp"
         android:layout_centerHorizontal="true"
         android:background="@color/colorBack"
         android:padding="5dp"
@@ -38,13 +38,13 @@
     <View
         android:layout_width="match_parent"
         android:layout_height="1dp"
-        android:layout_marginTop="155dp"
+        android:layout_marginTop="200dp"
         android:background="@color/colorBack"
         android:id="@+id/view"/>
 
     <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="500dp"
+        android:layout_height="4550dp"
         android:layout_below="@+id/view">
 
         <ImageView

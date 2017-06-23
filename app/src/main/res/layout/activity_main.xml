@@ -6,6 +6,17 @@
     android:background="@color/colorTextIcons"
     tools:context="com.innovach.echeckin.ui.MainActivity">
 
+    <TextView
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/cohort"
+        android:textSize="25dp"
+        android:textColor="@color/colorBack"
+        android:text="SELECT COHORT"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="40dp"
+        android:layout_centerHorizontal="true"/>
+
 
     <Button
         android:layout_width="250dp"
@@ -43,17 +54,29 @@
         android:layout_marginTop="195dp"
         android:textSize="30sp"/>
 
-    <Button
+    <!--<Button-->
+        <!--android:layout_width="250dp"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:text="MPPT"-->
+        <!--android:id="@+id/mpptbutton"-->
+        <!--android:background="@color/colorBack"-->
+        <!--android:textColor="@color/colorTextIcons"-->
+        <!--android:layout_alignParentTop="true"-->
+        <!--android:layout_centerHorizontal="true"-->
+        <!--android:layout_marginTop="250dp"-->
+        <!--android:textSize="30sp"/>-->
+
+    <TextView
         android:layout_width="250dp"
         android:layout_height="wrap_content"
-        android:text="MPPT"
-        android:id="@+id/mpptbutton"
-        android:background="@color/colorBack"
-        android:textColor="@color/colorTextIcons"
+        android:id="@+id/visitor"
+        android:textSize="25dp"
+        android:textColor="@color/colorBack"
+        android:text="VISITOR CHECK-IN"
         android:layout_alignParentTop="true"
-        android:layout_centerHorizontal="true"
-        android:layout_marginTop="250dp"
-        android:textSize="30sp"/>
+        android:layout_marginTop="265dp"
+        android:layout_centerHorizontal="true"/>
+
 
     <Button
         android:layout_width="250dp"

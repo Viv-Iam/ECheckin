@@ -24,7 +24,7 @@
         android:layout_centerHorizontal="true"/>
 
     <Button
-        android:layout_width="match_parent"
+        android:layout_width="350dp"
         android:layout_height="wrap_content"
         android:text="ADD to MC2"
         android:id="@+id/mc2Button"
@@ -35,7 +35,7 @@
         android:layout_centerHorizontal="true" />
 
     <Button
-        android:layout_width="match_parent"
+        android:layout_width="350dp"
         android:layout_height="wrap_content"
         android:text="ADD to MC3"
         android:textSize="20dp"
@@ -46,7 +46,7 @@
         android:layout_centerHorizontal="true" />
 
     <Button
-        android:layout_width="match_parent"
+        android:layout_width="350dp"
         android:layout_height="wrap_content"
         android:text="ADD to MPFT4"
         android:id="@+id/mpft4Button"
@@ -56,7 +56,7 @@
         android:layout_marginTop="230dp"
         android:layout_centerHorizontal="true" />
     <Button
-        android:layout_width="match_parent"
+        android:layout_width="350dp"
         android:layout_height="wrap_content"
         android:text="ADD to MPPT"
         android:id="@+id/mpptButton"
@@ -76,7 +76,7 @@
         android:layout_centerHorizontal="true" />
 
     <Button
-        android:layout_width="match_parent"
+        android:layout_width="350dp"
         android:layout_height="wrap_content"
         android:layout_centerHorizontal="true"
         android:layout_centerVertical="true"
